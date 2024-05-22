@@ -1,113 +1,106 @@
+/*--cabeçalho-->*/
 body{
     font-family: 'Trebuchet MS', helvetica sans-serif;
     background: #e6e6e6;
 }
+
 #cabeca{
     background-color: #f7b600;
     padding: 20px;
 }
+
 .linha{
     text-align: center;
 }
 
-a{
-    justify-content: center;
-    padding: 10px;
+#branco{
+    color: white
+}
+
+header a{
     text-decoration: none;
+    color: white;
+    padding: 10px;
 }
 
-a:link, a:visited{
+header a:hover{
     color: white;
-}
-a:hover{
-    color: white;
-    background-color:#e7aa00;
+    background-color: #e7aa00;
 }
 
-.principal{
+/*--Lado esquerdo*/
+main div{
     background: white;
     width: 680px;
     margin: 10px;
     padding: 10px 5px;   
 }
-img{
-    margin: 10px 10px 0px 10px;
-    padding: 10px 10px 0px 10px;
-}
 
-h1{
-    text-align: center;
-    color: #e4e4e4
-    font-size 10px
-}
-
-.branco{
-    color: white;
-}
-
-.titulo{
+main h2{
     color:  #f7b600;
     margin: 10px 5px 0px 5px;
     padding: 10px 10px 0px 10px;
 }
 
-#fun{
+main h5{
+    margin: 0px 10px;
+    padding: 1px 10px 0px 10px;
+}
+
+main p{
+    font-weight: bold;
+    margin: 5px 20px;
+}
+
+main a{
+    margin: 0px 10px 15px 20px;
+    color: #f7b600;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+img{
+    margin: 10px 10px 0px 10px;
+    padding: 10px 10px 0px 10px;
+}
+
+/*--Lado direito--*/
+
+nav{
+   display: flex;
+   flex-direction: column;
+   float: right;
+}
+
+nav h3{
     border: 1px solid #e4e4e4;
     background-color: rgb(185, 185, 185);
     margin: 5px;
     padding: 5px
 }
-#ladoa{
-    background: white;
-    width: 250px;
-    padding: 3px;
-    margin: 8px;
-    float: right;
-}
-#ladob{
-    background: white;
-    width: 250px;
-    padding: 3px;
-    margin: -430px 10px 10px 10px;
-    float: right;
-}
-.ler{
-    color: #f7b600;
-    font-weight: bold; 
-}
-.ler:link, .ler:visited{
-    color:#f7b600
-}
-.ler:hover{
-    color: white;
-    background-color:#e7aa00;
-    padding: 1px 10px;
-}
 
-.format{
+nav p{
     font-weight: bold;
     margin: 5px 10px;
 }
-.data{
-    margin: 0px 10px;
-    padding: 1px 10px 0px 10px;
-}
-p{
-    margin: 0px 10px 10px 20px;
-    font-weight: bold;
-}
-.mais{
-    margin: 0px 10px 15px 10px;
+
+nav a{
     color: #f7b600;
-    font-weight: bold;
+    font-weight: bold; 
+    text-decoration: none;
+    padding-left: 10px ;
 }
-.mais:link, .mais:visited{
-    color: #f7b600;
-}
-.mais:hover{
-    color:white;
-}
-#lista{
-    margin: 0px 10px 5px -70px;
+
+nav ul{
+    padding: 0px 5px;
     color: #e7aa00;
+    font-weight: bold;
+}
+
+nav div{
+    background-color: white;
+    float: right;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    text-align: left;
 }
